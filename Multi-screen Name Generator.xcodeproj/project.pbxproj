@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A1D85BC1C97B31A001C8246 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1D85BB1C97B31A001C8246 /* AppDelegate.swift */; };
+		2A1D85BE1C97B31A001C8246 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1D85BD1C97B31A001C8246 /* ViewController.swift */; };
+		2A1D85C11C97B31A001C8246 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A1D85BF1C97B31A001C8246 /* Main.storyboard */; };
+		2A1D85C31C97B31A001C8246 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A1D85C21C97B31A001C8246 /* Assets.xcassets */; };
+		2A1D85C61C97B31A001C8246 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A1D85C41C97B31A001C8246 /* LaunchScreen.storyboard */; };
+		2A1D85D11C97B31A001C8246 /* Multi_screen_Name_GeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1D85D01C97B31A001C8246 /* Multi_screen_Name_GeneratorTests.swift */; };
+		2A1D85DC1C97B31A001C8246 /* Multi_screen_Name_GeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1D85DB1C97B31A001C8246 /* Multi_screen_Name_GeneratorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A1D85CD1C97B31A001C8246 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A1D85B01C97B31A001C8246 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A1D85B71C97B31A001C8246;
+			remoteInfo = "Multi-screen Name Generator";
+		};
+		2A1D85D81C97B31A001C8246 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A1D85B01C97B31A001C8246 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A1D85B71C97B31A001C8246;
+			remoteInfo = "Multi-screen Name Generator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A1D85B81C97B31A001C8246 /* Multi-screen Name Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multi-screen Name Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A1D85BB1C97B31A001C8246 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A1D85BD1C97B31A001C8246 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A1D85C01C97B31A001C8246 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A1D85C21C97B31A001C8246 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A1D85C51C97B31A001C8246 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A1D85C71C97B31A001C8246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A1D85CC1C97B31A001C8246 /* Multi-screen Name GeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multi-screen Name GeneratorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A1D85D01C97B31A001C8246 /* Multi_screen_Name_GeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multi_screen_Name_GeneratorTests.swift; sourceTree = "<group>"; };
+		2A1D85D21C97B31A001C8246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A1D85D71C97B31A001C8246 /* Multi-screen Name GeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multi-screen Name GeneratorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A1D85DB1C97B31A001C8246 /* Multi_screen_Name_GeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multi_screen_Name_GeneratorUITests.swift; sourceTree = "<group>"; };
+		2A1D85DD1C97B31A001C8246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A1D85B51C97B31A001C8246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A1D85C91C97B31A001C8246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A1D85D41C97B31A001C8246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A1D85AF1C97B31A001C8246 = {
+			isa = PBXGroup;
+			children = (
+				2A1D85BA1C97B31A001C8246 /* Multi-screen Name Generator */,
+				2A1D85CF1C97B31A001C8246 /* Multi-screen Name GeneratorTests */,
+				2A1D85DA1C97B31A001C8246 /* Multi-screen Name GeneratorUITests */,
+				2A1D85B91C97B31A001C8246 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A1D85B91C97B31A001C8246 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A1D85B81C97B31A001C8246 /* Multi-screen Name Generator.app */,
+				2A1D85CC1C97B31A001C8246 /* Multi-screen Name GeneratorTests.xctest */,
+				2A1D85D71C97B31A001C8246 /* Multi-screen Name GeneratorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A1D85BA1C97B31A001C8246 /* Multi-screen Name Generator */ = {
+			isa = PBXGroup;
+			children = (
+				2A1D85BB1C97B31A001C8246 /* AppDelegate.swift */,
+				2A1D85BD1C97B31A001C8246 /* ViewController.swift */,
+				2A1D85BF1C97B31A001C8246 /* Main.storyboard */,
+				2A1D85C21C97B31A001C8246 /* Assets.xcassets */,
+				2A1D85C41C97B31A001C8246 /* LaunchScreen.storyboard */,
+				2A1D85C71C97B31A001C8246 /* Info.plist */,
+			);
+			path = "Multi-screen Name Generator";
+			sourceTree = "<group>";
+		};
+		2A1D85CF1C97B31A001C8246 /* Multi-screen Name GeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A1D85D01C97B31A001C8246 /* Multi_screen_Name_GeneratorTests.swift */,
+				2A1D85D21C97B31A001C8246 /* Info.plist */,
+			);
+			path = "Multi-screen Name GeneratorTests";
+			sourceTree = "<group>";
+		};
+		2A1D85DA1C97B31A001C8246 /* Multi-screen Name GeneratorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A1D85DB1C97B31A001C8246 /* Multi_screen_Name_GeneratorUITests.swift */,
+				2A1D85DD1C97B31A001C8246 /* Info.plist */,
+			);
+			path = "Multi-screen Name GeneratorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A1D85B71C97B31A001C8246 /* Multi-screen Name Generator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A1D85E01C97B31A001C8246 /* Build configuration list for PBXNativeTarget "Multi-screen Name Generator" */;
+			buildPhases = (
+				2A1D85B41C97B31A001C8246 /* Sources */,
+				2A1D85B51C97B31A001C8246 /* Frameworks */,
+				2A1D85B61C97B31A001C8246 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Multi-screen Name Generator";
+			productName = "Multi-screen Name Generator";
+			productReference = 2A1D85B81C97B31A001C8246 /* Multi-screen Name Generator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A1D85CB1C97B31A001C8246 /* Multi-screen Name GeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A1D85E31C97B31A001C8246 /* Build configuration list for PBXNativeTarget "Multi-screen Name GeneratorTests" */;
+			buildPhases = (
+				2A1D85C81C97B31A001C8246 /* Sources */,
+				2A1D85C91C97B31A001C8246 /* Frameworks */,
+				2A1D85CA1C97B31A001C8246 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A1D85CE1C97B31A001C8246 /* PBXTargetDependency */,
+			);
+			name = "Multi-screen Name GeneratorTests";
+			productName = "Multi-screen Name GeneratorTests";
+			productReference = 2A1D85CC1C97B31A001C8246 /* Multi-screen Name GeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A1D85D61C97B31A001C8246 /* Multi-screen Name GeneratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A1D85E61C97B31A001C8246 /* Build configuration list for PBXNativeTarget "Multi-screen Name GeneratorUITests" */;
+			buildPhases = (
+				2A1D85D31C97B31A001C8246 /* Sources */,
+				2A1D85D41C97B31A001C8246 /* Frameworks */,
+				2A1D85D51C97B31A001C8246 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A1D85D91C97B31A001C8246 /* PBXTargetDependency */,
+			);
+			name = "Multi-screen Name GeneratorUITests";
+			productName = "Multi-screen Name GeneratorUITests";
+			productReference = 2A1D85D71C97B31A001C8246 /* Multi-screen Name GeneratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A1D85B01C97B31A001C8246 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Yukai Ma";
+				TargetAttributes = {
+					2A1D85B71C97B31A001C8246 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					2A1D85CB1C97B31A001C8246 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 2A1D85B71C97B31A001C8246;
+					};
+					2A1D85D61C97B31A001C8246 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 2A1D85B71C97B31A001C8246;
+					};
+				};
+			};
+			buildConfigurationList = 2A1D85B31C97B31A001C8246 /* Build configuration list for PBXProject "Multi-screen Name Generator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A1D85AF1C97B31A001C8246;
+			productRefGroup = 2A1D85B91C97B31A001C8246 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A1D85B71C97B31A001C8246 /* Multi-screen Name Generator */,
+				2A1D85CB1C97B31A001C8246 /* Multi-screen Name GeneratorTests */,
+				2A1D85D61C97B31A001C8246 /* Multi-screen Name GeneratorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A1D85B61C97B31A001C8246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A1D85C61C97B31A001C8246 /* LaunchScreen.storyboard in Resources */,
+				2A1D85C31C97B31A001C8246 /* Assets.xcassets in Resources */,
+				2A1D85C11C97B31A001C8246 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A1D85CA1C97B31A001C8246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A1D85D51C97B31A001C8246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A1D85B41C97B31A001C8246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A1D85BE1C97B31A001C8246 /* ViewController.swift in Sources */,
+				2A1D85BC1C97B31A001C8246 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A1D85C81C97B31A001C8246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A1D85D11C97B31A001C8246 /* Multi_screen_Name_GeneratorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A1D85D31C97B31A001C8246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A1D85DC1C97B31A001C8246 /* Multi_screen_Name_GeneratorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A1D85CE1C97B31A001C8246 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A1D85B71C97B31A001C8246 /* Multi-screen Name Generator */;
+			targetProxy = 2A1D85CD1C97B31A001C8246 /* PBXContainerItemProxy */;
+		};
+		2A1D85D91C97B31A001C8246 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A1D85B71C97B31A001C8246 /* Multi-screen Name Generator */;
+			targetProxy = 2A1D85D81C97B31A001C8246 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A1D85BF1C97B31A001C8246 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A1D85C01C97B31A001C8246 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A1D85C41C97B31A001C8246 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A1D85C51C97B31A001C8246 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A1D85DE1C97B31A001C8246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A1D85DF1C97B31A001C8246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A1D85E11C97B31A001C8246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Multi-screen Name Generator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "monash.Multi-screen-Name-Generator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2A1D85E21C97B31A001C8246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Multi-screen Name Generator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "monash.Multi-screen-Name-Generator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2A1D85E41C97B31A001C8246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Multi-screen Name GeneratorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "monash.Multi-screen-Name-GeneratorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multi-screen Name Generator.app/Multi-screen Name Generator";
+			};
+			name = Debug;
+		};
+		2A1D85E51C97B31A001C8246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Multi-screen Name GeneratorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "monash.Multi-screen-Name-GeneratorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multi-screen Name Generator.app/Multi-screen Name Generator";
+			};
+			name = Release;
+		};
+		2A1D85E71C97B31A001C8246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Multi-screen Name GeneratorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "monash.Multi-screen-Name-GeneratorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Multi-screen Name Generator";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2A1D85E81C97B31A001C8246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Multi-screen Name GeneratorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "monash.Multi-screen-Name-GeneratorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Multi-screen Name Generator";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A1D85B31C97B31A001C8246 /* Build configuration list for PBXProject "Multi-screen Name Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A1D85DE1C97B31A001C8246 /* Debug */,
+				2A1D85DF1C97B31A001C8246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A1D85E01C97B31A001C8246 /* Build configuration list for PBXNativeTarget "Multi-screen Name Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A1D85E11C97B31A001C8246 /* Debug */,
+				2A1D85E21C97B31A001C8246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2A1D85E31C97B31A001C8246 /* Build configuration list for PBXNativeTarget "Multi-screen Name GeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A1D85E41C97B31A001C8246 /* Debug */,
+				2A1D85E51C97B31A001C8246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2A1D85E61C97B31A001C8246 /* Build configuration list for PBXNativeTarget "Multi-screen Name GeneratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A1D85E71C97B31A001C8246 /* Debug */,
+				2A1D85E81C97B31A001C8246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A1D85B01C97B31A001C8246 /* Project object */;
+}
