@@ -14,6 +14,8 @@
 		2A1D85C61C97B31A001C8246 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A1D85C41C97B31A001C8246 /* LaunchScreen.storyboard */; };
 		2A1D85D11C97B31A001C8246 /* Multi_screen_Name_GeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1D85D01C97B31A001C8246 /* Multi_screen_Name_GeneratorTests.swift */; };
 		2A1D85DC1C97B31A001C8246 /* Multi_screen_Name_GeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1D85DB1C97B31A001C8246 /* Multi_screen_Name_GeneratorUITests.swift */; };
+		2A1D85EA1C97B543001C8246 /* StarWarsName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1D85E91C97B543001C8246 /* StarWarsName.swift */; };
+		2A1D85EC1C97BB2D001C8246 /* ViewStarWarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1D85EB1C97BB2D001C8246 /* ViewStarWarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		2A1D85D71C97B31A001C8246 /* Multi-screen Name GeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multi-screen Name GeneratorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A1D85DB1C97B31A001C8246 /* Multi_screen_Name_GeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multi_screen_Name_GeneratorUITests.swift; sourceTree = "<group>"; };
 		2A1D85DD1C97B31A001C8246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A1D85E91C97B543001C8246 /* StarWarsName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsName.swift; sourceTree = "<group>"; };
+		2A1D85EB1C97BB2D001C8246 /* ViewStarWarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewStarWarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				2A1D85C21C97B31A001C8246 /* Assets.xcassets */,
 				2A1D85C41C97B31A001C8246 /* LaunchScreen.storyboard */,
 				2A1D85C71C97B31A001C8246 /* Info.plist */,
+				2A1D85E91C97B543001C8246 /* StarWarsName.swift */,
+				2A1D85EB1C97BB2D001C8246 /* ViewStarWarController.swift */,
 			);
 			path = "Multi-screen Name Generator";
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A1D85BE1C97B31A001C8246 /* ViewController.swift in Sources */,
+				2A1D85EC1C97BB2D001C8246 /* ViewStarWarController.swift in Sources */,
 				2A1D85BC1C97B31A001C8246 /* AppDelegate.swift in Sources */,
+				2A1D85EA1C97B543001C8246 /* StarWarsName.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
