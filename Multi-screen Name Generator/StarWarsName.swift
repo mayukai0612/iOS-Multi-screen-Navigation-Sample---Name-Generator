@@ -31,6 +31,28 @@ class StarWarsName: NSObject {
         self.FavouriteBrand = FavouriteBrand
     }
     
+    func getFirstname() ->String{
     
+      return self.FirstName!
+    }
+    
+    func getSurname() ->String{
+        
+        return self.SurName!
+    }
+    
+    func getMaidenName() ->String{
+        
+        return self.MothersMaidenName!
+    }
+    func getBirthPlace() ->String{
+        
+        return self.BirthPlace!
+    }
+    
+    func getFavouriteBrand() ->String{
+        
+        return self.FavouriteBrand!
+    }
     
 }
